@@ -1,0 +1,266 @@
+body{
+	font-family: "Lato";
+    color: #424551;
+   
+} 
+
+[class*="__class"]{
+	max-width: 1230px;
+	margin: 0 auto;
+  
+    
+
+}
+h2,h3,h4{
+    color: #1E212C;
+}
+
+h2{
+font-weight: 900;
+font-size : 46px;
+line-height : 130%;
+margin-bottom: 40px;}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 43px;
+}
+h3{
+    font-weight: 700;
+font-size: 28px;
+line-height: 150%;
+margin-bottom: 20px;
+}
+.bulletedlist ul li{
+   
+    background: url('../img/icos/vector.png') left center no-repeat;
+    line-height: 130%;
+    padding-left: 32px;
+    
+ }
+ h4{
+    font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+margin-bottom: 8px;
+ }
+ .course__class{
+    margin-top: 120px;
+ }
+ .course__class h2{
+    margin-bottom: 16px;    
+ }
+ .course__class p.top{
+    font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+color: #787A80;
+margin-bottom: 38px;
+ }
+ .live ul li{
+    font-weight: 700;
+font-size: 16px;
+line-height: 160%;
+   
+ }
+ .live ul li::before{
+	background: url('../img/icos/vector.png') 0 0 no-repeat;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 8px;
+	
+}
+.live ul li:first-child::before{
+	background: url('../img/icos/star.png') 0 0 no-repeat;
+	
+}
+.live ul li:last-child::before{
+	background: url('../img/icos/rofile.png') 0 0 no-repeat;
+	
+}
+.live{
+    margin-bottom: 32px;
+}
+
+.nice{
+    max-width: 300px;
+	margin: 0 auto;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    text-shadow: 2px 3px 6px #000;			
+
+}
+.nice:hover{
+    border-color: brown;
+    color: rgb(61, 255, 7);
+    text-decoration: underline;		
+
+}
+.block{
+    max-width: 1200px;
+    font-size: 16px;
+    line-height: 160%;
+    margin-bottom: 43px;
+    
+}
+.block:hover{
+	background-color: #f407d4;
+	color: #fff;
+	padding: 15px;
+    }
+    .hand:active {
+        color: rgb(10, 8, 146);
+    }
+.hand{
+        
+    padding: 15px;
+    border-radius: 35px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    max-width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 248, 4);
+    box-shadow: 2px 6px 0px 3px rgb(4, 149, 88);
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.my a{
+    font-size: 18px;
+    line-height: 160%;
+    font-weight: 900;
+    text-decoration: underline;	
+   
+}
+.hand:visited{	color: rgb(5, 73, 189);
+
+    }
+    .new{
+        margin: 20px 0 30px;
+        font-size: 20px;
+    }
+    .new ul{
+        margin-left: 20px;
+    }
+    .new ul ul{
+        display: none;
+    }
+    
+        .new ul li:hover ul{
+            display: block;
+        }
+.text{
+    background-color: #d8eb49;
+	padding: 15px;
+	color: rgb(6, 6, 95);
+	line-height: 110%;
+}
+.text p:nth-child(odd) {
+	background-color: #f76bdf;
+}
+.text p:nth-child(even) 
+{
+	background-color: #da1717;
+}
+.text>*:last-child {
+	margin-bottom: 0px;
+}
+ .new ul li::before{
+
+    background: url('../img/icos/free-icon-google-symbol-2875331.png') 0 0 /contain no-repeat;
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 10px;
+ }
+.new ul li:hover::before{
+	transform: scale(1.5);
+}
+.vib{
+    background-color: aqua;
+    
+}
+.viv__class{
+    background-color: #ebcae7;
+    padding: 15px;
+    min-height: 800px;
+}
+.open{
+    background-color: rgb(28, 13, 251);
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 18px;
+    text-align: center;
+}
+.first.no{
+    background-color: rgb(223, 4, 247);
+    width: 20px;
+    height: 90px;
+    margin-left: 20px;
+    
+}
+.two.no{
+    background-color: rgb(161, 247, 1);
+    width: 800px;
+    height: 30px;
+    margin-left: 20px;
+}
+.tree.no{
+    background-color: rgb(232, 7, 7);
+    width: 22px;
+    height: 220px;
+    margin-left: 795px;
+}
+.fort.no{
+    background-color: rgb(12, 250, 242);
+    width: 480px;
+    height:20px;
+    margin-left: 335px;
+}
+.fift.no{
+    background-color: rgb(223, 123, 10);
+    width: 28px;
+    height:230px;
+    margin-left:340px;
+}
+.six.no{
+    background-color: rgb(250, 12, 111);
+    width: 385px;
+    height:20px;
+    margin-left: 340px;
+}
+.seven.no{
+    background-color: rgb(4, 13, 105);
+    width: 25px;
+    height:20px;
+    margin-left: 700px;
+}
+.finish{
+    background-color: #d8eb49;
+    width: 80px;
+    height: 40px;
+    margin-left: 700px;
+    border-radius: 10px;
+    text-align: center;
+}
+.no{
+    opacity: 0;
+    visibility:hidden;
+    transition: all 0.8s ease 0s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.vib div:hover + div,
+.vib div:hover 
+{
+    opacity: 1;
+    visibility:visible;
+}
